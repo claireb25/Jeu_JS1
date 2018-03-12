@@ -10,11 +10,16 @@
 
     <body>
         
-        <h1 class="titre">Essaie de trouver le nombre auquel je pense ! </h1>
-        <p class="paragraphe">Pour jouer, choisi un nombre entre 1 et 100 et je t'aiderai à te rapprocher du but </p>
-        <input id="saisie" type="text" name="nb" placeholder="Votre nombre ici (ex : 43)"/>
-        <input id="clickme" type="button" value="Valider" />
-        <p id="result"></p>
+        <h1 class="titre">Arriveras-tu à trouver le nombreu auquel je pense ?</h1>
+        <div class="mep">
+            <p class="paragraphe">Pour jouer, choisi un nombre entre 1 et 100 et je t'aiderai à te rapprocher du but. </p>
+            <div class="formulaire">
+                <p id="result" class="resultat"></p>
+                <input class="saisiedunb" id="saisie" type="text" name="nb" placeholder="Votre proposition ici"/>
+                <input class="bouton-valid" id="clickme" type="button" value="Valider" />
+                
+            </div>
+        </div>
 
         <script type="text/javascript" src="script.js"></script>
     </body>
